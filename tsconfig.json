@@ -8,8 +8,6 @@
     "outDir": "./dist/out-tsc",
     "declaration": false,
     "moduleResolution": "node",
-    "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es6",
@@ -22,6 +20,9 @@
       "dom"
     ]
   },
+  "files": [
+    "index.ts"
+  ],
   "exclude": [
     "*dist*",
     "node_modules"
