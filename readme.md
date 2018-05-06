@@ -1,5 +1,7 @@
 # reproduction for libsodium angular build error
 
+example failure on ci: https://travis-ci.com/lynncyrin/libsodium-angular-build-error
+
 terminal output:
 
 ```
