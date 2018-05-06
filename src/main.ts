@@ -11,4 +11,3 @@ export async function readySodium(): Promise<void> {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
-
