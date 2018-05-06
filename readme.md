@@ -5,10 +5,7 @@ example failure on ci: https://travis-ci.com/lynncyrin/libsodium-angular-build-e
 terminal output:
 
 ```
-$ npm test
-
-> libsodium-webpack@1.0.0 test ~/libsodium-webpack
-> ng build
+$ npx ng build angular-build-failing
 
 Date: 2018-05-06T16:31:27.427Z
 Hash: 4627ddaf65e7368bc48e
