@@ -5,7 +5,7 @@
   "projects": {
     "angular-build": {
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "",
       "projectType": "application",
       "prefix": "app",
       "architect": {
@@ -13,8 +13,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/angular-build",
-            "index": "src/index.html",
-            "main": "src/main.ts",
+            "index": "index.html",
+            "main": "main.ts",
             "tsConfig": "tsconfig.json"
           }
         }
