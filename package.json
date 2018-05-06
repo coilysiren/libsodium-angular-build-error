@@ -8,7 +8,7 @@
     "npm": "6.0.0"
   },
   "scripts": {
-    "test": "ng build"
+    "test": "ng build angular-build-passing && ng build angular-build-failing"
   },
   "author": "",
   "license": "ISC",
