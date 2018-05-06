@@ -1,1 +1,2 @@
-import * as _uninitalizedSodiumDoNotUse from "libsodium-wrappers";
+import path = require("path");
+import crypto = require("crypto");
