@@ -13,8 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@angular/cli": "^6",
+    "@angular/core": "^6",
     "libsodium-wrappers": "^0.7.3",
     "typescript": "<2.8",
+    "zone.js": "^0.8.26",
     "webpack": "^4"
   }
 }
