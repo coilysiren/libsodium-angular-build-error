@@ -1,0 +1,38 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "module": "commonjs",
+    "outDir": "./dist/out-tsc",
+    "declaration": false,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types",
+      "@types/text-encoding"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "*dist*",
+    "node_modules"
+  ],
+  "typedocOptions": {
+    "out": "docs/",
+    "mode": "file",
+    "readme": "none",
+    "exclude": "**/*+(component|module|views).ts",
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "excludeProtected": true
+  }
+}
