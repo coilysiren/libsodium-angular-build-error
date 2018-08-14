@@ -2,6 +2,8 @@
 
 example failure on ci: https://travis-ci.com/lynncyrin/libsodium-angular-build-error
 
+local fix: https://github.com/angular/angular-cli/issues/1548#issuecomment-409086413
+
 terminal output:
 
 ```
