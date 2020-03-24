@@ -1,5 +1,7 @@
 # reproduction for libsodium angular build error
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lynncyrin/libsodium-angular-build-error.svg)](https://greenkeeper.io/)
+
 example failure on ci: https://travis-ci.com/lynncyrin/libsodium-angular-build-error
 
 local fix: https://github.com/angular/angular-cli/issues/1548#issuecomment-409086413
